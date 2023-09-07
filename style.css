@@ -1,0 +1,157 @@
+/* Container 1 */
+body{
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  width: 1472px; 
+  height: 900px; 
+  background: rgb(12, 26, 102); 
+  border-radius: 4px; /* border-m */
+  box-shadow: 0px 0px 1px rgba(23, 26, 31, 0.07), 0px 0px 2px rgba(23, 26, 31, 0.12); /* shadow-xs */
+}
+.about{
+  color: rgba(255,255,255);
+}
+.login{
+  position: absolute;  
+  left: 1100px; 
+  font-family: Epilogue;
+  font-size: 15px; 
+  line-height: 24px; 
+  color: rgba(255,255,255,1); /* white */
+}
+.reg{
+margin-left: 1200px;
+color: rgba(255,255,255,1); /* white */
+font-size: 15px; 
+line-height: 24px; 
+}
+.text {
+    position: absolute; 
+    top: 109px; 
+    left: 197px; 
+    width: 1082px; 
+    height: 197px; 
+    font-family: Roboto Mono; 
+    font-size: 30px; 
+    line-height: 68px; 
+    color: rgba(255,255,255,1); /* white */
+}
+.system{
+  margin-left: 350px;
+}
+.btn{
+  margin-top: 0px;
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #ffedd3;
+  text-transform: uppercase;
+  position: absolute;
+  transition: .5s ease;
+  left: 650px;
+  text-align: center;
+}
+
+.btn::before {
+  content: '';
+  position: relative;
+  left: auto;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffc506;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  color: #1e1e2b;
+  transition-delay: .5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 105%;
+  background-color: #ffc506;
+  transition: .4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+.logo{
+  position: absolute; 
+  top: 650px; 
+  left: 130px; 
+  width: 70px; 
+  height: 74px; 
+  border-radius: 4px; /* border-m */
+}
+h3{
+  position: absolute; 
+  top: 630px; 
+  left: 230px; 
+  font-family: Epilogue; /* Heading */
+  font-size: 20px; 
+  line-height: 30px; 
+  color: rgb(255, 255, 255); /* neutral-400 */
+}
+.ba{
+  position: absolute; 
+  top: 658px; 
+  left: 230px; 
+  font-family: Inter; /* Body */
+  font-size: 14px; 
+  line-height: 22px; 
+  color: rgba(255, 255, 255);
+}
+.edu{
+  position: absolute; 
+  top: 675px; 
+  left: 230px; 
+  width: 145px; 
+  font-family: Inter; /* Body */
+  font-size: 14px; 
+  line-height: 22px; 
+  color: rgba(255,255,255,1); /* white */
+}
+.com{
+  position: absolute; 
+  top: 695px; 
+  left: 230px; 
+  width: 145px; 
+  font-family: Inter; /* Body */
+  font-size: 14px; 
+  line-height: 22px; 
+  color: rgba(255,255,255,1); /* white */
+}
+footer{
+  background-color: #212121;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 800px;
+  margin-right: 10px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* CSS for the footer links on hover */
+footer a:hover {
+  text-decoration: underline;
+}
